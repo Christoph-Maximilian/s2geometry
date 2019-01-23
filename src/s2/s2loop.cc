@@ -284,7 +284,7 @@ void S2Loop::InitIndex() {
   }
   if (FLAGS_s2debug && s2debug_override_ == S2Debug::ALLOW) {
     // Note that FLAGS_s2debug is false in optimized builds (by default).
-    S2_CHECK(IsValid());
+    // S2_CHECK(IsValid());
   }
 }
 
